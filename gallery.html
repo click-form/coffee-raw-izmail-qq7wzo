@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея — Coffee Raw</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Coffee <span>Raw</span></a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Меню</a></li>
+                    <li><a href="gallery.html" class="active" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="gallery_page_title">Фотогалерея</h1>
+                <p data-i18n="gallery_page_subtitle">Атмосфера наших кав'ярень та апетитні кавові напої.</p>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <div class="container">
+                <div class="gallery-grid">
+                    <div class="gallery-item placeholder-item">
+                        <div class="placeholder-box">
+                            <span class="ph-icon">☕</span>
+                            <p data-i18n="gallery_placeholder_1">Coffee Raw Ізмаїл</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item placeholder-item">
+                        <div class="placeholder-box">
+                            <span class="ph-icon">🌭</span>
+                            <p data-i18n="gallery_placeholder_2">Смачні хот-доги</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item placeholder-item">
+                        <div class="placeholder-box">
+                            <span class="ph-icon">✨</span>
+                            <p data-i18n="gallery_placeholder_3">Затишна атмосфера</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="instagram-prompt">
+                    <p data-i18n="ig_prompt">Більше фото та історій дивіться на нашій сторінці в Instagram:</p>
+                    <a href="https://www.instagram.com/coffee_raw_izmail/" target="_blank" rel="noopener" class="btn btn-primary">@coffee_raw_izmail</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <a href="index.html" class="logo footer-logo">Coffee <span>Raw</span></a>
+                <p data-i18n="footer_desc">Улюблена кава з собою та смачні хот-доги в Ізмаїлі.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_hours_title">Графік роботи</h4>
+                <p>Пн-Нд: 08:00 - 20:00</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts_title">Адреса</h4>
+                <p>вул. Покровська, 42-А, Ізмаїл, Одеська область</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_social_title">Соціальні мережі</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/coffee_raw_izmail/" target="_blank" rel="noopener">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2024 Coffee Raw. <span data-i18n="rights">Усі права захищені.</span></p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
