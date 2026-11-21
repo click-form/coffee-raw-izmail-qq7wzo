@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Raw — Ізмаїл</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Coffee <span>Raw</span></a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Меню</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <h1 data-i18n="hero_title">Coffee Raw — улюблена кава з собою та смачні хот-доги в Ізмаїлі</h1>
+                <p data-i18n="hero_subtitle">Найкраща кава, швидке обслуговування та чудовий настрій щодня у найзручніших точках міста.</p>
+                <div class="hero-buttons">
+                    <a href="services.html" class="btn btn-primary" data-i18n="btn_menu">Дивитися меню</a>
+                    <a href="contacts.html" class="btn btn-secondary" data-i18n="btn_contacts">Знайти нас</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2 class="section-title" data-i18n="features_title">Чому обирають нас</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">☕</div>
+                        <h3 data-i18n="feat_1_title">Якісна кава</h3>
+                        <p data-i18n="feat_1_desc">Класичні та авторські напої з добірних зерен для вашого бадьорого ранку.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌭</div>
+                        <h3 data-i18n="feat_2_title">Ситні хот-доги</h3>
+                        <p data-i18n="feat_2_desc">Фірмові хот-доги з яловичиною та смачними фірмовими соусами.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📍</div>
+                        <h3 data-i18n="feat_3_title">Зручні локації</h3>
+                        <p data-i18n="feat_3_desc">Заклади та кавові точки у найзручніших місцях міста: вул. Покровська та пр. Незалежності.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-banner">
+            <div class="container cta-container">
+                <h2 data-i18n="cta_title">Бажаєте смачної кави вже зараз?</h2>
+                <p data-i18n="cta_desc">Завітайте до нас на вулицю Покровську, 42-А або знайдіть найближчу точку Coffee Raw!</p>
+                <a href="contacts.html" class="btn btn-primary" data-i18n="cta_btn">Контакти та адреса</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <a href="index.html" class="logo footer-logo">Coffee <span>Raw</span></a>
+                <p data-i18n="footer_desc">Улюблена кава з собою та смачні хот-доги в Ізмаїлі.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_hours_title">Графік роботи</h4>
+                <p>Пн-Нд: 08:00 - 20:00</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts_title">Адреса</h4>
+                <p>вул. Покровська, 42-А, Ізмаїл, Одеська область</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_social_title">Соціальні мережі</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/coffee_raw_izmail/" target="_blank" rel="noopener">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2024 Coffee Raw. <span data-i18n="rights">Усі права захищені.</span></p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
